@@ -7,5 +7,6 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 5173,
+    allowedHosts: ["my-portfolio-936e.onrender.com"]
   },
 });
